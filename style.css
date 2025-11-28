@@ -1,0 +1,135 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f9fbff;
+  color: #1a2540;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(90deg, #2062e2 60%, #3a98fc 100%);
+  color: white;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 8vw 16px 8vw;
+}
+nav .logo {
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 26px;
+  margin: 0;
+  padding: 0;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding: 6px 10px;
+  transition: background .15s;
+  border-radius: 4px;
+}
+nav ul li a:hover,
+nav ul li a:focus {
+  background: #154eb7;
+}
+.hero {
+  padding: 60px 8vw 40px 8vw;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+}
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 24px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cta-button {
+  background: #ffb400;
+  color: #16336e;
+  padding: 14px 36px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.12rem;
+  box-shadow: 0 2px 8px rgba(32,98,226,0.07);
+  transition: background 0.18s;
+  display: inline-block;
+}
+.cta-button:hover {
+  background: #ffbf43;
+  color: #1a2540;
+}
+main {
+  padding: 48px 8vw;
+}
+.services, .testimonials {
+  margin-bottom: 45px;
+}
+.services h2, .testimonials h2 {
+  font-size: 2rem;
+  color: #2062e2;
+  margin-bottom: 16px;
+}
+.services ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 0 0 18px 0;
+}
+.services ul li {
+  background: white;
+  box-shadow: 0 2px 14px rgba(32,98,226,0.06);
+  border-radius: 7px;
+  padding: 18px 22px;
+  font-size: 1.08rem;
+  flex: 1 1 180px;
+  min-width: 140px;
+}
+.testimonials blockquote {
+  background: #eef5ff;
+  border-left: 4px solid #2062e2;
+  margin: 15px 0;
+  padding: 20px 22px 10px 20px;
+  font-size: 1.07rem;
+  border-radius: 5px;
+  color: #1a2540;
+  font-style: italic;
+}
+.testimonials span {
+  display: block;
+  color: #3a98fc;
+  font-weight: 500;
+  margin-top: 5px;
+}
+footer {
+  background: #16336e;
+  color: white;
+  text-align: center;
+  padding: 26px 8vw;
+  font-size: 1rem;
+  margin-top: 40px;
+}
+@media (max-width: 800px) {
+  nav, .hero, main, footer {
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+  .services ul {
+    flex-direction: column;
+  }
+}

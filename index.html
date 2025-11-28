@@ -4,51 +4,120 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nexusmedia | Real Estate Marketing</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <nav>
+    <nav class="navbar">
       <div class="logo">Nexusmedia</div>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <section class="hero">
-      <h1>Expert Marketing for Real Estate Agents</h1>
-      <p>Grow your real estate business and stand out with Nexusmedia's proven digital marketing strategies.</p>
-      <a href="contact.html" class="cta-button">Contact Us</a>
-    </section>
   </header>
-  <main>
-    <section class="services">
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h1>Real Estate Marketing, Reinvented</h1>
+      <p>Grow your agency with modern marketing strategies, stunning visuals, and data-driven results.</p>
+      <a href="#contact" class="cta-btn">Get Started</a>
+    </div>
+  </section>
+  <section id="about" class="about">
+    <div class="container">
+      <h2>Why Choose Nexusmedia?</h2>
+      <p>We help real estate professionals break through the competition with powerful branding, digital campaigns, and hands-on support. Experience measurable growth with a team that understands your market.</p>
+    </div>
+  </section>
+  <section id="services" class="services">
+    <div class="container">
       <h2>Our Services</h2>
-      <ul>
-        <li>Digital Marketing Strategy</li>
-        <li>Social Media Marketing</li>
-        <li>Lead Generation</li>
-        <li>Email Campaigns</li>
-        <li>Brand Identity</li>
-      </ul>
-    </section>
-    <section class="testimonials">
-      <h2>Client Testimonials</h2>
-      <blockquote>
-        “Nexusmedia transformed my agency’s online presence.”<br>
-        <span>- Jordan R., Realtor</span>
-      </blockquote>
-      <blockquote>
-        “Highly professional and results-driven. My listings grew!”<br>
-        <span>- Monica F., Real Estate Agent</span>
-      </blockquote>
-    </section>
-  </main>
+      <div class="services-grid">
+        <div class="service-card">
+          <i class="fas fa-bullhorn"></i>
+          <h3>Digital Campaigns</h3>
+          <p>Creative advertising and targeted lead generation for maximum ROI.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-chart-line"></i>
+          <h3>SEO & Analytics</h3>
+          <p>Boost your visibility in search & track every result that matters.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-brush"></i>
+          <h3>Brand Identity</h3>
+          <p>Logo, print & digital design that position you as a market leader.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-camera"></i>
+          <h3>Listing Media</h3>
+          <p>High-impact photo, video & virtual tours that sell properties fast.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2>Featured Projects</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Project 1">
+          <h3>Skyline Realty Social Launch</h3>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Project 2">
+          <h3>Green Valley Branding</h3>
+        </div>
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=400&q=80" alt="Project 3">
+          <h3>Modern Home Virtual Tour</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h2>Client Success Stories</h2>
+      <div class="testimonial-cards">
+        <div class="testimonial-card">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Jordan R.">
+          <p>“Nexusmedia helped us double our sales in one year. Professional and transparent.”</p>
+          <span>- Jordan R., Realtor</span>
+        </div>
+        <div class="testimonial-card">
+          <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Monica F.">
+          <p>“The listing videos and social campaigns blew us away. Highly recommend for real estate!”</p>
+          <span>- Monica F., Real Estate Agent</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form class="contact-form" action="mailto:info@nexusmedia.com" method="POST" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="contact-info">
+        <p>Email: <a href="mailto:info@nexusmedia.com">info@nexusmedia.com</a></p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Location: Main Street, Your City</p>
+      </div>
+    </div>
+  </section>
   <footer>
-    <p>&copy; 2025 Nexusmedia. All rights reserved.</p>
+    <div class="container">
+      <p>&copy; 2025 Nexusmedia. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>

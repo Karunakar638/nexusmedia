@@ -47,11 +47,16 @@ body {
   color: #fff;
 }
 .hero {
-  background: linear-gradient(120deg, #2262c6 60%, #44aaff 100%);
-  color: #fff;
-  padding: 110px 5vw 100px 5vw;
-  text-align: center;
-  box-shadow: 0 4px 32px rgba(32,98,226,0.08);
+  position: relative;
+  min-height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Add a real estate background image with a dark gradient overlay */
+  background: 
+    linear-gradient(135deg,rgba(37,40,90,0.82) 65%,rgba(73,89,229,0.40) 120%),
+    url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80') center center/cover no-repeat;
+}
 }
 .hero-content h1 {
   font-size: 2.9rem;

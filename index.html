@@ -3,121 +3,136 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nexusmedia | Real Estate Marketing</title>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+  <title>Nexus Media | Real Estate Marketing Agency</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-      <div class="logo">Nexusmedia</div>
-      <ul class="nav-links">
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+  <header class="header">
+    <div class="container">
+      <div class="brand-logo">Nexus Media</div>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
-  <section id="hero" class="hero">
-    <div class="hero-content">
-      <h1>Real Estate Marketing, Reinvented</h1>
-      <p>Grow your agency with modern marketing strategies, stunning visuals, and data-driven results.</p>
-      <a href="#contact" class="cta-btn">Get Started</a>
+
+  <section id="home" class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content" data-aos="fade-up">
+      <h1 class="animated-title">Grow Your Real Estate Brand With <span>Nexus Media</span></h1>
+      <p>Modern marketing that delivers real estate results. Stunning campaigns. Measurable growth.</p>
+      <a href="#contact" class="hero-btn">Get Started</a>
     </div>
   </section>
-  <section id="about" class="about">
+
+  <section id="services" class="services-section">
     <div class="container">
-      <h2>Why Choose Nexusmedia?</h2>
-      <p>We help real estate professionals break through the competition with powerful branding, digital campaigns, and hands-on support. Experience measurable growth with a team that understands your market.</p>
-    </div>
-  </section>
-  <section id="services" class="services">
-    <div class="container">
-      <h2>Our Services</h2>
-      <div class="services-grid">
-        <div class="service-card">
+      <h2 data-aos="fade-up">Our Services</h2>
+      <div class="services-list">
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
           <i class="fas fa-bullhorn"></i>
-          <h3>Digital Campaigns</h3>
-          <p>Creative advertising and targeted lead generation for maximum ROI.</p>
+          <h3>Campaigns</h3>
+          <p>Amplify your listings with targeted digital ad campaigns that reach the right buyers.</p>
         </div>
-        <div class="service-card">
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
           <i class="fas fa-chart-line"></i>
           <h3>SEO & Analytics</h3>
-          <p>Boost your visibility in search & track every result that matters.</p>
+          <p>Increase your site’s ranking and monitor growth with transparent analytics dashboards.</p>
         </div>
-        <div class="service-card">
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
           <i class="fas fa-brush"></i>
-          <h3>Brand Identity</h3>
-          <p>Logo, print & digital design that position you as a market leader.</p>
+          <h3>Branding</h3>
+          <p>Build credibility with a cohesive brand, beautiful graphics, and compelling messaging.</p>
         </div>
-        <div class="service-card">
-          <i class="fas fa-camera"></i>
-          <h3>Listing Media</h3>
-          <p>High-impact photo, video & virtual tours that sell properties fast.</p>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+          <i class="fas fa-camera-retro"></i>
+          <h3>Photo & Video</h3>
+          <p>High-quality imagery and walkthroughs to make any listing stand out and attract attention.</p>
         </div>
       </div>
     </div>
   </section>
-  <section id="portfolio" class="portfolio">
+
+  <section id="portfolio" class="portfolio-section">
     <div class="container">
-      <h2>Featured Projects</h2>
+      <h2 data-aos="fade-up">Featured Projects</h2>
       <div class="portfolio-grid">
-        <div class="portfolio-item">
-          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Project 1">
-          <h3>Skyline Realty Social Launch</h3>
+        <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="100">
+          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Luxury Home">
+          <div class="portfolio-info">
+            <h3>Luxury Home Launch</h3>
+            <p>Digital branding and listing campaign for a new luxury community.</p>
+          </div>
         </div>
-        <div class="portfolio-item">
-          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Project 2">
-          <h3>Green Valley Branding</h3>
+        <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="200">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Downtown Spotlight">
+          <div class="portfolio-info">
+            <h3>Downtown Spotlight</h3>
+            <p>Social media blitz and content production for top agents.</p>
+          </div>
         </div>
-        <div class="portfolio-item">
-          <img src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=400&q=80" alt="Project 3">
-          <h3>Modern Home Virtual Tour</h3>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="testimonials" class="testimonials">
-    <div class="container">
-      <h2>Client Success Stories</h2>
-      <div class="testimonial-cards">
-        <div class="testimonial-card">
-          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Jordan R.">
-          <p>“Nexusmedia helped us double our sales in one year. Professional and transparent.”</p>
-          <span>- Jordan R., Realtor</span>
-        </div>
-        <div class="testimonial-card">
-          <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Monica F.">
-          <p>“The listing videos and social campaigns blew us away. Highly recommend for real estate!”</p>
-          <span>- Monica F., Real Estate Agent</span>
+        <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="300">
+          <img src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=400&q=80" alt="Virtual Tour Project">
+          <div class="portfolio-info">
+            <h3>Virtual Tour Package</h3>
+            <p>Full-motion video and 3D home open houses, promoted citywide.</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
-  <section id="contact" class="contact">
+
+  <section id="testimonials" class="testimonials-section">
     <div class="container">
-      <h2>Contact Us</h2>
-      <form class="contact-form" action="mailto:info@nexusmedia.com" method="POST" enctype="text/plain">
+      <h2 data-aos="fade-up">Testimonials</h2>
+      <div class="testimonials-list">
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+          <img src="https://randomuser.me/api/portraits/men/31.jpg" alt="Client" />
+          <blockquote>“Nexus Media was essential in selling my listings faster. They made my agency brand shine!”</blockquote>
+          <span>- Marcus T., Realtor</span>
+        </div>
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Client" />
+          <blockquote>“Highly creative and reliable. Their digital campaigns brought me more high-quality leads!”</blockquote>
+          <span>- Patricia L., Broker</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2 data-aos="fade-up">Contact Us</h2>
+      <form class="contact-form" data-aos="fade-up" action="mailto:info@nexusmedia.com" method="POST" enctype="text/plain">
         <input type="text" name="name" placeholder="Your Name" required>
         <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Your Message" required></textarea>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
         <button type="submit">Send Message</button>
       </form>
-      <div class="contact-info">
+      <div class="contact-details" data-aos="fade-up" data-aos-delay="100">
         <p>Email: <a href="mailto:info@nexusmedia.com">info@nexusmedia.com</a></p>
         <p>Phone: (123) 456-7890</p>
         <p>Location: Main Street, Your City</p>
       </div>
     </div>
   </section>
-  <footer>
+
+  <footer class="footer">
     <div class="container">
-      <p>&copy; 2025 Nexusmedia. All rights reserved.</p>
+      <p>&copy; 2025 Nexus Media. All rights reserved.</p>
     </div>
   </footer>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({ duration: 700, once: true });
+  </script>
 </body>
 </html>
